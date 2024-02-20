@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    background-color: #ffffffc5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto; /* Add margin to create gap */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height instead of height */
+}
+
+
+h1 {
+    font-size: 28px;
+    color: #f80303;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center; /* Centers the form elements */
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video {
+    padding: 20px;
+}
+
+.video h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.video p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.video a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.video a:hover {
+    background-color: #cc0000;
+}
+
+
+/* styles.css */
+/* Rest of your CSS rules */
+
+.thumbnail {
+    width: 120px; /* Adjust the width of the thumbnail as needed */
+    height: auto;
+    margin-right: 20px; /* Spacing between thumbnail and video info */
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.video-info {
+    flex: 1; /* Allows the video info to take remaining space */
+}
+
+.video-info h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.video-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.video-info a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.video-info a:hover {
+    background-color: #cc0000;
+}
+
